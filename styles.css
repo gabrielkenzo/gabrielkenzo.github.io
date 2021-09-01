@@ -1,0 +1,87 @@
+#grad1 {
+    color: rgb(182, 166, 202);
+    height: 100vh;
+    background-color: #cccccc;
+    background-image: linear-gradient(rgb(212, 190, 190), rgb(225, 222, 233));
+    /* background-image: linear-gradient(rgb(224, 197, 104), rgb(209, 152, 197)); sunset like */
+    /* background-image: linear-gradient(rgb(107, 161, 192), rgb(235, 182, 102)); oceano e areia */
+    /* background-image: linear-gradient(rgb(50, 50, 50), rgb(0, 0, 0)); dark theme */
+}
+
+#text_color1 {
+    color: rgb(182, 166, 202);
+}
+
+a:link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 18px;
+    /* color: rgb(182, 166, 202); */
+}
+
+.strokeme
+{
+    text-shadow:
+    -1px -1px 0 #000,
+    3px -1px 0 #000,
+    -1px 3px 0 #000
+    1px 1px 0 #000;  
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.home-div {
+    width: 128px;
+    height: 128px;
+    text-align: center;
+    float: left;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.one .two .three .four .five .six {
+    text-align: center;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+.three {
+    grid-column: 3;
+    grid-row: 1;
+}
+.four {
+    grid-column: 4;
+    grid-row: 1;
+}
+.five {
+    grid-column: 2;
+    grid-row: 4;
+}
+.six {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

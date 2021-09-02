@@ -12,19 +12,12 @@
     color: rgb(182, 166, 202);
 }
 
-a:link {
-    color: inherit;
-    text-decoration: none;
-    font-size: 18px;
-    /* color: rgb(182, 166, 202); */
-}
-
 .strokeme
 {
     text-shadow:
     -1px -1px 0 #000,
     3px -1px 0 #000,
-    -1px 3px 0 #000
+    -1px 3px 0 #000,
     1px 1px 0 #000;  
 }
 
@@ -37,51 +30,85 @@ a:link {
     transform: translate(-50%, -50%);
 }
 
-.home-div {
-    width: 128px;
-    height: 128px;
+header {
+    padding-bottom: 120px;
     text-align: center;
-    float: left;
+    font-size: 60px;
+    font-family: cursive;
+    color: rgb(182, 166, 202);
+    text-shadow:
+    -0.8px -0.8px 0 #000,
+    2px -0.8px 0 #000,
+    -0.8px 2px 0 #000,
+    0.8px 0.8px 0 #000;  
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+.game-big-text {
+    font-size: 120px;
 }
 
-.one .two .three .four .five .six {
-    text-align: center;
+.game-small-text {
+    margin-left: 140px;
+    font-size: 20px
 }
 
-.one {
-    grid-column: 1;
-    grid-row: 1;
+/* configs para celular */
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 40px;
+    }
+
+    .game-big-text {
+        font-size: 55px;
+    }
+
+    .game-small-text {
+        margin-left: 50px;
+        font-size: 12px;
+    }
 }
-.two {
-    grid-column: 2;
-    grid-row: 1;
-}
-.three {
-    grid-column: 3;
-    grid-row: 1;
-}
-.four {
-    grid-column: 4;
-    grid-row: 1;
-}
-.five {
-    grid-column: 2;
-    grid-row: 4;
-}
-.six {
-    grid-column: 3;
-    grid-row: 4;
+
+header a:link {
+    color: inherit;
+    text-decoration: none;
 }
 
 .image-center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+    
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+  
+.flex-item {
+    min-width: 80px;
+    padding: 5px;
+    width: 24%;
+    height: 120px;
+    margin-top: 10px;
+}
+
+.flex-item a:link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 18px;
 }

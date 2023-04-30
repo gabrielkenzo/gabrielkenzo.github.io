@@ -12,13 +12,12 @@
     color: rgb(182, 166, 202);
 }
 
-.strokeme
-{
+.strokeme {
     text-shadow:
-    -1px -1px 0 #000,
-    3px -1px 0 #000,
-    -1px 3px 0 #000,
-    1px 1px 0 #000;  
+        -1px -1px 0 #000,
+        3px -1px 0 #000,
+        -1px 3px 0 #000,
+        1px 1px 0 #000;
 }
 
 .center {
@@ -37,10 +36,10 @@ header {
     font-family: cursive;
     color: rgb(182, 166, 202);
     text-shadow:
-    -0.8px -0.8px 0 #000,
-    2px -0.8px 0 #000,
-    -0.8px 2px 0 #000,
-    0.8px 0.8px 0 #000;  
+        -0.8px -0.8px 0 #000,
+        2px -0.8px 0 #000,
+        -0.8px 2px 0 #000,
+        0.8px 0.8px 0 #000;
 }
 
 .game-big-text {
@@ -82,7 +81,7 @@ header a:link {
 .flex-container {
     /* We first create a flex layout context */
     display: flex;
-    
+
     /* Then we define the flow direction 
        and if we allow the items to wrap 
      * Remember this is the same as:
@@ -90,15 +89,15 @@ header a:link {
      * flex-wrap: wrap;
      */
     flex-flow: row wrap;
-    
+
     /* Then we define how is distributed the remaining space */
     justify-content: space-around;
-    
+
     padding: 0;
     margin: 0;
     list-style: none;
 }
-  
+
 .flex-item {
     min-width: 80px;
     padding: 5px;

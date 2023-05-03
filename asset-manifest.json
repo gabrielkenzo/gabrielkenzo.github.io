@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/gabrielkenzo.github.io/static/css/main.a069322a.css",
-    "main.js": "/gabrielkenzo.github.io/static/js/main.7e7fb88d.js",
+    "main.css": "/gabrielkenzo.github.io/static/css/main.21b36c24.css",
+    "main.js": "/gabrielkenzo.github.io/static/js/main.87a18508.js",
     "index.html": "/gabrielkenzo.github.io/index.html",
-    "main.a069322a.css.map": "/gabrielkenzo.github.io/static/css/main.a069322a.css.map",
-    "main.7e7fb88d.js.map": "/gabrielkenzo.github.io/static/js/main.7e7fb88d.js.map"
+    "main.21b36c24.css.map": "/gabrielkenzo.github.io/static/css/main.21b36c24.css.map",
+    "main.87a18508.js.map": "/gabrielkenzo.github.io/static/js/main.87a18508.js.map"
   },
   "entrypoints": [
-    "static/css/main.a069322a.css",
-    "static/js/main.7e7fb88d.js"
+    "static/css/main.21b36c24.css",
+    "static/js/main.87a18508.js"
   ]
 }

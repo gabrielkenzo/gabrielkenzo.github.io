@@ -50,27 +50,16 @@
   margin: 0 auto;
   background-color: #1DB954;
   padding: 10px;
-  padding-top: 20px;
+  padding-top: 10px;
   border-radius: 50px;
+}
+
+.audio-player .inner {
+  margin-top: 20px;
 }
 
 .audio-player audio {
   width: 80%;
-}
-
-.audio-player .play-pause {
-  background-color: #2196f3;
-  color: #fff;
-  border: none;
-  padding: 5px 10px;
-  /* border-radikuus: 5px; */
-  cursor: pointer;
-  font-size: 16px;
-  margin-top: 10px;
-}
-
-.audio-player .play-pause:hover {
-  background-color: #0d8bf2;
 }
 
 .album-cover {
